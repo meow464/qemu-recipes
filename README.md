@@ -34,7 +34,7 @@ This was deliberate because I don't like having a virbr0 interface polluting my 
 virtualization. The recipe also includes instructions on how to undo the setup without rebooting.
 
 I might still add a permanent bridged network setup because running the current recipe resets the network
-connection.x
+connection.
 
 ## Motivation
 
