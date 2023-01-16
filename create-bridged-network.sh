@@ -5,12 +5,12 @@
 # about its existence). Any real devices (e.g. eth0) and virtual devices (e.g. tap0) can be
 # connected to it. 
 
-# br0 stands for qemu recipes bridge 0
+# Create bridge interface
 ip link add br0 type bridge
 ip address add dev br0 192.168.100.1/24
 
 # eth0 is the internet connected device
-# Adding the interface into the bridge is done by setting its master to bridge_name.
+# Connecting the interface to the bridge is done by setting its master to bridge_name.
 ip link set eth0 master br0
 
 # Tap interfaces are just virtual interfaces we will connect to our virtual switch (br0).
