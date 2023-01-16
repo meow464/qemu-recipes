@@ -51,3 +51,4 @@ references for the user to be able to depart from it if need be.
 ## License
 
 Do whatever the fuck you want I don't care it's just a bunch of scripts.
+http://www.wtfpl.net/
