@@ -17,9 +17,10 @@ Things this repository already contains and things I would like it to contain so
 
 Clone this repo and change the options on the scripts. You will probably want to:
 
-1. Setup the network with `create-bridged-network.sh`
-2. Create a new disk with `create-disk.sh`
-3. Start the VM with `boot-vm.sh`
+1. `chmod +x`
+2. Setup the network with `create-bridged-network.sh`
+3. Create a new disk with `create-disk.sh`
+4. Start the VM with `boot-vm.sh`
 
 All files contain comments explaining what needs to be changed.
 
