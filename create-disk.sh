@@ -7,7 +7,7 @@
 # qcow2 is only as large as the data inside it and supports copy on write
 # when created from a backing image.
 
-#qemu-img create -f qcow2 disk.qcow2 20G
+qemu-img create -f qcow2 disk.qcow2 20G
 
 
 # -o backing_file=
